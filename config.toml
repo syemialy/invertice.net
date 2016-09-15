@@ -1,0 +1,198 @@
+# Site settings
+#baseurl = "http://syemialy.github.io/invertise.net"
+languageCode = "en-US"
+title = "Invertice serves telecommunications industry and is currently performing projects of varying size across the country"
+theme = "hugo-agency-theme"
+
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Invertice Inc"
+	description = "The Invertice has expertise and equipment to install all types of communication towers."
+
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "info@invertise.com"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Invertice"
+		services = "Services"
+		portfolio = "Projects"
+		about = "Company"
+		contact = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Invertice Inc."
+		subtitle = "Telecom Services Provider"
+		buttonText = "About Us"
+
+
+	# Services section
+	[params.services]
+		title = "Services"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		[[params.services.list]]
+			icon = "fa-wrench"
+			title = "Tower Inspections & Services"
+			description = "We provide wide variety of inspections and services of fixing faulty items: third party inspection post installation, quality/punch items inspection, foundation inspection, safety climb inspection, tower structure inspection."
+
+		[[params.services.list]]
+			icon = "fa-bolt"
+			title = "Equipment Installation & Upgrade"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.services.list]]
+			icon = "fa-align-center"
+			title = "Tower Erection & Reinforcement "
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.services.list]]
+			icon = "fa-stethoscope"
+			title = "Optimization & Testing;"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.services.list]]
+			icon = "fa-bullseye"
+			title = "Decommission & Demolition"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			
+		[[params.services.list]]
+			icon = "fa-wifi"
+			title = "Microwave Dishes"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.services.list]]
+			icon = "fa-wrench"
+			title = "Construction management"
+			description = "We provide service of supervising construction of tower/tower equipment from the start till the end. Including work on paperwork (red lines, update, explanation to the crew etc.) and close out documents (filling and submitting close out forms, preparing reports, renaming photos, work on the test data)."
+
+		[[params.services.list]]
+			icon = "fa-support"
+			title = "General Site Maintenance"
+			description = "We provide services..."
+		
+
+	# Portfolio section
+	[params.portfolio]
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Projects"
+		subtitle = "Invertice serves telecommunications industry and is currently performing projects of varying size across the country."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+	[params.about]
+		title = "Invertice"
+		subtitle = "We execute projects of varying size across the US"
+		endpoint = "Be part<br>of our<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			date = "Step 1"
+			title = "Give us a call"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+		[[params.about.events]]
+			img = "2.jpg"
+			date = "Step 2"
+			title = "Get a Quote"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+		[[params.about.events]]
+			img = "3.jpg"
+			date = "Step 3"
+			title = "Get your job done"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+	# Client section
+	# All the clients' logos are stored under 'static/img/logos'.
+	# Replace them with your clients's logos.
+	[[params.clients]]
+		logo = "att-logo.jpg"
+		link = "#"
+
+	# Contact section
+	[params.contact]
+		title = "Contact us"
+		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
