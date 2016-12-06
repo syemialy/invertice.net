@@ -55,7 +55,7 @@ theme = "hugo-agency-theme"
 	# Services section
 	[params.services]
 		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "fast and professional services and confidence"
 
 		[[params.services.list]]
 			icon = "fa-wrench"
@@ -65,37 +65,42 @@ theme = "hugo-agency-theme"
 		[[params.services.list]]
 			icon = "fa-bolt"
 			title = "Equipment Installation & Upgrade"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			description = "Our company is a leader on the East market in installing and upgrading Tower/Shelter equipment (starting from cabinets, BBUs, SPDs etc. and finishing with  RHHs, Antennas, A2 Modules."
 
 		[[params.services.list]]
 			icon = "fa-align-center"
-			title = "Tower Erection & Reinforcement "
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			title = "Tower Modification & Reinforcement "
+			description = "Invertice provides unparalleled quality and an unsurpassed level of professional steel erection and tower modification to our customers. We have experienced AWS fabricators and erectors, as well as certified rigging personnel. Because of that experience, specialized equipment, and unmatched talent we excel at a wide array of projects."
 
 		[[params.services.list]]
 			icon = "fa-stethoscope"
-			title = "Optimization & Testing;"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			title = "Optimization"
+			description = "We are experienced in the Optimization services for any type of Telecom Carrier, those services include: Azimuth measurement and change, MDT & Plumb measurement and changes, RETs set up/troubleshoot, microwave alignment etc."
+
+		[[params.services.list]]
+			icon = "fa-stethoscope"
+			title = "Testing"
+			description = "With high quality of training and experience, up-to-date PIM/Sweep/OTDR gear (our equipment stock has all range of RF Testing equip. – KAELUS, ANRITSU, SunSight etc) our certified (by ANRITSU & KAELUS) climbers and technicians can test modern RF component, troubleshoot & fix any alarm."
 
 		[[params.services.list]]
 			icon = "fa-bullseye"
 			title = "Decommission & Demolition"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-			
+			description = "We strive to provide quick and full decommission services for telecom companies and cell carries. Our decom services include: towers decom, cabinets/rooftop platforms removal, batteries removal/disposal, internal equipment and hazardous materials removal."
+
 		[[params.services.list]]
 			icon = "fa-wifi"
-			title = "Microwave Dishes"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			title = "DAS/Small Cell & Microwave dishes"
+			description = "Invertice provides services for Distributed Antenna Systems installation, services, upgrade: Indoor/Outdoor DAS systems, Micro sells, Fiber check and install, Integration or Integration assistance."
 
 		[[params.services.list]]
 			icon = "fa-wrench"
 			title = "Construction management"
-			description = "We provide service of supervising construction of tower/tower equipment from the start till the end. Including work on paperwork (red lines, update, explanation to the crew etc.) and close out documents (filling and submitting close out forms, preparing reports, renaming photos, work on the test data)."
+			description = "We provide service of supervising construction of tower/tower equipment from the start till the end. Including services on site documentaion (which include drawings readings, SDCO/RFDS reading/explanation, red lines, updates, scope of work and material list close out documents (filling and submitting close out forms, preparing reports, renaming photos, work on the test data)."
 
 		[[params.services.list]]
 			icon = "fa-support"
-			title = "General Site Maintenance"
-			description = "We provide services..."
+			title = "Civil Construction General Site maintenance services"
+			description = "Our in-house technicians are able to support any size ground level project from cabinet installs to complete raw builds. Invertice also provides maintenance of beacon, lightning protection services, compound/access road services, fencing, ground rings, vandalism recovery."
 		
 
 	# Portfolio section
@@ -106,6 +111,7 @@ theme = "hugo-agency-theme"
 		# For more informtion take a look at the README.
 		title = "Projects"
 		subtitle = "Invertice serves telecommunications industry and is currently performing projects of varying size across the country."
+		text="As one of the top Communication Tower construction company, Invertice has a large amount of projects done.<br/><br/>We are proud to announce all our projects have been successfully finished with 0 accidents occurred on sites and 0 damage done to equipment. For more than 5 years of work and  800+ projects done this is undoubtedly a great achievement.<br/><br/> We were able to reach that thanks to our regular safety meetings/training, our experienced managers and hardworking technician and climbers, that put their soul into work and give their maximum attention to every detail in the documents and on the construction site.<br/><br/> We are partners with:<br/>- ANS<br/>- Black&Veatch<br/>	- Betacom<br/>	- BECHTEL<br/>	- JACOBS<br/>	- NB&C<br/>	- GLOTEL<br/>	- WestTower<br/>	- TELECOM PRO<br/>	- MasTec<br/>	- MUTI<br/>	- CELTONE<br/>	- SBA Towers<br/>	- Crown Castle<br/>	- Centerline<br/><br/>Our Projects included almost all possible types of Tower Construction, including: Rf Equipment upgrades/troubleshooting/change, Tower Reinforcement etc."
 
 		[params.portfolio.modal]
             client = "Client"
@@ -118,6 +124,7 @@ theme = "hugo-agency-theme"
 	[params.about]
 		title = "Invertice"
 		subtitle = "We execute projects of varying size across the US"
+		subtitle2 = "How Invertice works"
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
