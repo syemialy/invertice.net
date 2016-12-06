@@ -1,5 +1,7 @@
 # Site settings
-#baseurl = "http://syemialy.github.io/invertise.net"
+builddrafts = false
+#baseurl = "http://invertice.net/"
+relativeURLs = true
 languageCode = "en-US"
 title = "Invertice serves telecommunications industry and is currently performing projects of varying size across the country"
 theme = "hugo-agency-theme"

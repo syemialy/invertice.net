@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Invertice serves telecommunications industry and is currently performing projects of varying size across the country</title>
-    <link>http://syemialy.github.io/invertice.net/</link>
+    <link>http://invertice.net/</link>
     <description>Recent content on Invertice serves telecommunications industry and is currently performing projects of varying size across the country</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <atom:link href="http://syemialy.github.io/invertice.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://invertice.net/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
