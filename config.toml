@@ -49,8 +49,8 @@ theme = "hugo-agency-theme"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Invertice Inc."
-		subtitle = "Telecom Services Provider"
+		title = ""
+		subtitle = ""
 		buttonText = "About Us"
 
 
@@ -75,19 +75,19 @@ theme = "hugo-agency-theme"
 			description = "Invertice provides unparalleled quality and an unsurpassed level of professional steel erection and tower modification to our customers. We have experienced AWS fabricators and erectors, as well as certified rigging personnel. Because of that experience, specialized equipment, and unmatched talent we excel at a wide array of projects."
 
 		[[params.services.list]]
+			icon = "fa-bullseye"
+			title = "Decommission & Demolition"
+			description = "We strive to provide quick and full decommission services for telecom companies and cell carries. Our decom services include: towers decom, cabinets/rooftop platforms removal, batteries removal/disposal, internal equipment and hazardous materials removal."
+
+		[[params.services.list]]
 			icon = "fa-stethoscope"
 			title = "Optimization"
 			description = "We are experienced in the Optimization services for any type of Telecom Carrier, those services include: Azimuth measurement and change, MDT & Plumb measurement and changes, RETs set up/troubleshoot, microwave alignment etc."
 
 		[[params.services.list]]
-			icon = "fa-stethoscope"
-			title = "Testing"
-			description = "With high quality of training and experience, up-to-date PIM/Sweep/OTDR gear (our equipment stock has all range of RF Testing equip. – KAELUS, ANRITSU, SunSight etc) our certified (by ANRITSU & KAELUS) climbers and technicians can test modern RF component, troubleshoot & fix any alarm."
-
-		[[params.services.list]]
-			icon = "fa-bullseye"
-			title = "Decommission & Demolition"
-			description = "We strive to provide quick and full decommission services for telecom companies and cell carries. Our decom services include: towers decom, cabinets/rooftop platforms removal, batteries removal/disposal, internal equipment and hazardous materials removal."
+			icon = "fa-support"
+			title = "Civil Construction General Site maintenance services"
+			description = "Our in-house technicians are able to support any size ground level project from cabinet installs to complete raw builds. Invertice also provides maintenance of beacon, lightning protection services, compound/access road services, fencing, ground rings, vandalism recovery."
 
 		[[params.services.list]]
 			icon = "fa-wifi"
@@ -95,15 +95,50 @@ theme = "hugo-agency-theme"
 			description = "Invertice provides services for Distributed Antenna Systems installation, services, upgrade: Indoor/Outdoor DAS systems, Micro sells, Fiber check and install, Integration or Integration assistance."
 
 		[[params.services.list]]
-			icon = "fa-wrench"
-			title = "Construction management"
-			description = "We provide service of supervising construction of tower/tower equipment from the start till the end. Including services on site documentaion (which include drawings readings, SDCO/RFDS reading/explanation, red lines, updates, scope of work and material list close out documents (filling and submitting close out forms, preparing reports, renaming photos, work on the test data)."
+			icon = "fa-stethoscope"
+			title = "Testing"
+			description = "With high quality of training and experience, up-to-date PIM/Sweep/OTDR gear (our equipment stock has all range of RF Testing equip. – KAELUS, ANRITSU, SunSight etc) our certified (by ANRITSU & KAELUS) climbers and technicians can test modern RF component, troubleshoot & fix any alarm."
 
 		[[params.services.list]]
-			icon = "fa-support"
-			title = "Civil Construction General Site maintenance services"
-			description = "Our in-house technicians are able to support any size ground level project from cabinet installs to complete raw builds. Invertice also provides maintenance of beacon, lightning protection services, compound/access road services, fencing, ground rings, vandalism recovery."
-		
+			icon = "fa-wrench"
+			title = "Construction management"
+			description = "We provide service of supervising construction of tower/tower equipment from the start till finish. Including on-site services, documentaion (which include drawings readings, SDCO/RFDS reading/explanation, red lines, updates, scope of work and material list close out documents (filling and submitting close out forms, preparing reports,etc)."
+
+	[params.team]
+		title = "Team"
+		subtitle = "Meet our core professionals team"
+		description = "description goes here"
+
+		[[params.team.members]]
+			name = "Tanya Kohan"
+			position = "President & CFO"
+			description = "Tanya has held several Corporate Business Management Professional roles for over 11 years including: Controller, Accountant and overall Business Management. She holds a Bachelor Degree in Business Administration & runs the core back office and Business Operation teams / staff within Invertice. She is a true dedicated Professional that cares about all of her clients and personnel."
+			img = "tanya-round.png"
+			social = [
+		        ["fa-facebook", "#"],
+		        ["fa-linkedin", "#"]
+		    ]
+
+		[[params.team.members]]
+			name = "Kyle Lis"
+			position = "CEO"
+			description = "Kyle has over 14 years of Telecommunications Construction experience. In 2002 Kyle started providing Professional Construction & Integration Services for the  Satellite Uplink & Downlink Communication Industry. Kyle started to grow his company building strong teams to meet his client requirements in many other markets. After working in that industry for many years, Kyle entered into the Wireless Cellular Tower Construction Industry. Over the years Kyle has grown his company with over fifteen RF & Turfing clients serving the following Regions & Markets: Central, South Central,  South East, OHPA, Mid-Atlantic, Northeast & all of NY. Kyle has built a phenomenal organization with exceptional people and takes personal pride in everything that he and his teams achieve. Invertice focuses on continual training and education to insure all of his teams are up to date on all safety, skills, technology & industry standards. Invertice now offers full spectrum of expanded services for the Tower, DAS, Small Cell and Smart City Industries."
+			img = "kyle-round.png"
+			social = [
+		        ["fa-facebook", "#"],
+		        ["fa-linkedin", "#"]
+		    ]
+
+		[[params.team.members]]
+			name = "Jeffrey C. Chehovits"
+			position = "National Director of Business Operations"
+			description = "Jeff has over 35 years of Global Telecommunications experience at all levels, trades and technologies including oDAS, iDAS, Small Cell, Smart City, Tower/Macro, 3/4G LTE, AWS, Fiber, FTTX, gigE, ATM to IP, central office, colocation builds, RF Optimization and Staffing.  Most recently,  Jeff had responsibility for over 100 million dollar annual regional build budgets direct with AT&T ASG, Crown Castle, Verizon, ATC, Sprint, Cricket, Metro PCS and NextG. Jeff has worked “In House” for the major Telecom & Tower companies and has extensive Wireless RF Carrier,  Tower Company and Government experience. Additionally, He’s placed Wireless teams in Iraq post 9-11 with Lucent building the Motorola Iden network for the Iraqi First responders while simultaneously building the DC-NET VOIP/gigE network in Washington, DC."
+			img = "jeff-round.png"
+			social = [
+		        ["fa-facebook", "#"],
+		        ["fa-linkedin", "#"]
+		    ]
+
 
 	# Portfolio section
 	[params.portfolio]
@@ -113,7 +148,7 @@ theme = "hugo-agency-theme"
 		# For more informtion take a look at the README.
 		title = "Projects"
 		subtitle = "Invertice serves telecommunications industry and is currently performing projects of varying size across the country."
-		text="As one of the top Communication Tower construction company, Invertice has a large amount of projects done.<br/><br/>We are proud to announce all our projects have been successfully finished with 0 accidents occurred on sites and 0 damage done to equipment. For more than 5 years of work and  800+ projects done this is undoubtedly a great achievement.<br/><br/> We were able to reach that thanks to our regular safety meetings/training, our experienced managers and hardworking technician and climbers, that put their soul into work and give their maximum attention to every detail in the documents and on the construction site.<br/><br/> We are partners with:<br/>- ANS<br/>- Black&Veatch<br/>	- Betacom<br/>	- BECHTEL<br/>	- JACOBS<br/>	- NB&C<br/>	- GLOTEL<br/>	- WestTower<br/>	- TELECOM PRO<br/>	- MasTec<br/>	- MUTI<br/>	- CELTONE<br/>	- SBA Towers<br/>	- Crown Castle<br/>	- Centerline<br/><br/>Our Projects included almost all possible types of Tower Construction, including: Rf Equipment upgrades/troubleshooting/change, Tower Reinforcement etc."
+		text="As one of the top Communication Tower construction company"
 
 		[params.portfolio.modal]
             client = "Client"
@@ -124,9 +159,9 @@ theme = "hugo-agency-theme"
 
     # About section
 	[params.about]
-		title = "Invertice"
-		subtitle = "We execute projects of varying size across the US"
-		subtitle2 = "How Invertice works"
+		title = "Invertice Inc."
+		subtitle = "Woman Owned & Operated Business"
+		subtitle2 = "ONE Call  COMPLETE  i/o DAS, small cell. Tower, Smart City, and contract staffing solutions.Your Proven industry Veterans!"
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
@@ -150,13 +185,38 @@ theme = "hugo-agency-theme"
 			title = "Get your job done"
 			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
+	[param.clientelle]		
+		# Client section
+		# All the clients' logos are stored under 'static/img/logos'.
+		# Replace them with your clients's logos.
 
-	# Client section
-	# All the clients' logos are stored under 'static/img/logos'.
-	# Replace them with your clients's logos.
-	[[params.clients]]
-		logo = "att-logo.jpg"
-		link = "#"
+		[[params.clients]]
+			logo = "att-logo.png"
+			link = "http://att.com"
+
+		[[params.clients]]
+			logo = "verizon.png"
+			link = "http://verizon.org"
+
+		[[params.clients]]
+			logo = "crown-castle.png"
+			link = "http://crowncastle.com"
+
+		[[params.clients]]
+			logo = "ameritowe.png"
+			link = "#"
+
+		[[params.clients]]
+			logo = "tmo.png"
+			link = "#"
+
+		[[params.clients]]
+			logo = "sprint.png"
+			link = "#"
+
+		[[params.clients]]
+			logo = "alcatel.png"
+			link = "#"
 
 	# Contact section
 	[params.contact]
