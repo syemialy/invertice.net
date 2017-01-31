@@ -1,6 +1,6 @@
 # Site settings
 builddrafts = false
-#baseurl = "http://invertice.net/"
+baseurl = "http://invertice.net/"
 relativeURLs = true
 languageCode = "en-US"
 title = "Invertice serves telecommunications industry and is currently performing projects of varying size across the country"
@@ -38,11 +38,13 @@ theme = "hugo-agency-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "Invertice"
+		brand = "Invertice Inc."
 		services = "Services"
 		portfolio = "Projects"
 		about = "Company"
 		contact = "Contact"
+		team = "Team"
+		certification = "Certification"
 
 
 	# Hero section

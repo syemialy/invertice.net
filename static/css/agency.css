@@ -264,7 +264,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-invertice.png);
+    background-image: url(../img/header-bg-invertice.jpg);
+    background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -273,7 +274,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -862,4 +863,13 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+/*! this is for locations */
+#map_wrapper {
+    height: 400px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
 }
