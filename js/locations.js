@@ -1,7 +1,7 @@
 $(function($) {
     // Asynchronously Load the map API 
     var script = document.createElement('script');
-    script.src = "//maps.googleapis.com/maps/api/js?sensor=false&callback=initialize";
+    script.src = "//maps.googleapis.com/maps/api/js?key= AIzaSyBsJ1zFGXY4DVMLeY_5srACRnGkXCW02y8&sensor=false&callback=initialize";
     document.body.appendChild(script);
 });
 
@@ -19,7 +19,7 @@ function initialize() {
         
     // Multiple Markers
     var markers = [
-        ['Invertice Corporate Office & Warehouse, Philadelphia PA', 40.2474552,-75.1995507],
+        ['Invertice Corporate Office & Warehouse, Philadelphia PA', 40.2474552 ,-75.1995507],
         ['Invertice Sattellite Operations, Pitsburg',40.431478,-80.0505406]
     ];
                         
