@@ -873,3 +873,16 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.blue-box {
+    background-color: #049fe2;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.parner-logo {
+    width: 50%;
+    height: 50%;
+}
