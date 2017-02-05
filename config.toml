@@ -33,7 +33,7 @@ theme = "hugo-agency-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "info@invertise.com"
+	email = "contact@invertice.com"
 
 
 	# Navigation
@@ -115,7 +115,7 @@ theme = "hugo-agency-theme"
 			name = "Tanya Kohan"
 			position = "President & CFO"
 			description = "Tanya has held several Corporate Business Management Professional roles for over 11 years including: Controller, Accountant and overall Business Management. She holds a Bachelor Degree in Business Administration & runs the core back office and Business Operation teams / staff within Invertice. She is a true dedicated Professional that cares about all of her clients and personnel."
-			img = "tanya-round.png"
+			img = "0b2e628.jpg"
 			social = [
 		        ["fa-facebook", "#"],
 		        ["fa-linkedin", "#"]
