@@ -131,16 +131,6 @@ theme = "hugo-agency-theme"
 		        ["fa-linkedin", "#"]
 		    ]
 
-		[[params.team.members]]
-			name = "Jeffrey C. Chehovits"
-			position = "National Director of Business Operations"
-			description = "Jeff has over 35 years of Global Telecommunications experience at all levels, trades and technologies including oDAS, iDAS, Small Cell, Smart City, Tower/Macro, 3/4G LTE, AWS, Fiber, FTTX, gigE, ATM to IP, central office, colocation builds, RF Optimization and Staffing.  Most recently,  Jeff had responsibility for over 100 million dollar annual regional build budgets direct with AT&T ASG, Crown Castle, Verizon, ATC, Sprint, Cricket, Metro PCS and NextG. Jeff has worked “In House” for the major Telecom & Tower companies and has extensive Wireless RF Carrier,  Tower Company and Government experience. Additionally, He’s placed Wireless teams in Iraq post 9-11 with Lucent building the Motorola Iden network for the Iraqi First responders while simultaneously building the DC-NET VOIP/gigE network in Washington, DC."
-			img = "jeff-round.png"
-			social = [
-		        ["fa-facebook", "#"],
-		        ["fa-linkedin", "#"]
-		    ]
-
 
 	# Portfolio section
 	[params.portfolio]
