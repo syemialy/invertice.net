@@ -214,8 +214,20 @@ disableKinds="taxonomyTerm"
 	# Contact section
 	[params.contact]
 		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Send message"
+		subtitle  = "Invertice.net"
+		name = "Kyle Lis"
+		phone = "(&#x32;&#x36;&#x37;) &#x37;&#x37;&#x37;&#x2d;&#x37;&#x35;&#x34;&#x37;"
+		email = "&#x65;&#x6d;&#x61;&#x69;&#x6c;: &#x63;&#x6f;&#x6e;&#x74;&#x61;&#x63;&#x74;&commat;&#x69;&#x6e;&#x76;&#x65;&#x72;&#x74;&#x69;&#x63;&#x65;&period;&#x6e;&#x65;&#x74;"
+
+		[[params.contact.officeaddress.list]]
+			title = "HEAD OFFICE"
+			line1 = "1830 Country Line Road #300"
+			line2 = "Huntington Valley, PA 19006"
+		
+		[[params.contact.officeaddress.list]]
+			title = "SATTELITE OFFICE OPERATIONS"
+			line1 = "285 National Pl #117"
+			line2 = "Longwood, FL 32750"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]

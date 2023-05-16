@@ -9,17 +9,13 @@
         </div>
         <div class="row top10">
          <div class="col-lg-6">
-            <h4>Head Office</h4>
+            {{ range .Site.Params.contact.officeaddress.list }}
+            <h4>{{ .title }}</h4>
             <address>
-                1800 Country Line Road<br> 
-                Philadelphia, PA 18914<br>                
+                {{ .line1 }}<br>
+                {{ .line2 }}<br>
             </address>
-            </p>    
-            <h4>Sattelite Office Operations</h4>
-            <address>
-                285 National Pl #117<br>
-                Longwood, FL 32750<br>
-            </address>
+            {{ end }}
         </div>
         <div class="row top10">
             <div class="col-lg-12">
